@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Duka.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['Duka/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
